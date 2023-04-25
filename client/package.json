@@ -1,9 +1,12 @@
 {
   "name": "fabrica-3d",
+  "homepage": "https://amankashyap004.github.io/fabrica-3d",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -12,6 +15,7 @@
     "@react-three/drei": "^9.61.3",
     "@react-three/fiber": "^8.12.0",
     "framer-motion": "^10.10.0",
+    "gh-pages": "^5.0.0",
     "maath": "^0.5.3",
     "react": "^18.2.0",
     "react-color": "^2.19.3",
